@@ -1,0 +1,4 @@
+enum FontType {
+  poppins,
+  emberly,
+}
