@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:testing_task/Common/AppBTN/primary_btn.dart';
-import 'package:testing_task/Common/AppBar/grid_view.dart';
+import 'package:testing_task/Common/widgets/grid_view.dart';
 import 'package:testing_task/Common/AppText/app_text.dart';
 import 'package:testing_task/Constant/custom_assets.dart';
 import 'package:testing_task/Routes/app_routes.dart';

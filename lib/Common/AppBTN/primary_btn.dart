@@ -50,7 +50,7 @@ class PrimaryBTN extends StatelessWidget {
                     const LinearGradient(
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight,
-                      colors: [AppColor.googleBTN, AppColor.primaryColor],
+                      colors: [AppColor.green, AppColor.green],
                     ),
                 borderRadius: BorderRadius.circular(borderRadius),
               ),
