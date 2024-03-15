@@ -11,7 +11,9 @@ import 'package:testing_task/Routes/app_routes.dart';
 import 'package:testing_task/Theme/colors.dart';
 
 class BrowseAllDoctors extends StatelessWidget {
-  const BrowseAllDoctors({Key? key});
+  const BrowseAllDoctors({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -273,7 +275,7 @@ class BrowseAllDoctors extends StatelessWidget {
                                   const Image(
                                     height: 16,
                                     width: 16,
-                                    image: AssetImage(AppAssets.bone),
+                                    image: AssetImage(AppAssets.consu),
                                   ),
                                   const SizedBox(
                                     width: 5,

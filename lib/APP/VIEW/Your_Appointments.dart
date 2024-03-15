@@ -43,6 +43,7 @@ class Appointments extends StatelessWidget {
           child: CustomText(
             title: 'Your Appointments',
             color: Colors.black,
+            size: 30,
             fontWeight: FontWeight.w800,
           ),
         ),
@@ -50,6 +51,7 @@ class Appointments extends StatelessWidget {
           child: CustomText(
             title: 'You have 0 appointments',
             color: AppColor.lightgray,
+            size: 18,
             fontWeight: FontWeight.w400,
           ),
         ),

@@ -40,4 +40,7 @@ class AppAssets {
   static const String female = "assets/Icons/female.png";
   static const String stand = "assets/Icons/stand.png";
   static const String dropdown = "assets/Icons/dropdown.png";
+  static const String physo = "assets/Icons/physo.png";
+  static const String searchh = "assets/Icons/search.png";
+  static const String consu = "assets/Icons/consu.png";
 }

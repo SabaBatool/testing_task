@@ -331,6 +331,22 @@ class FilterDoctorSearchView extends StatelessWidget {
                               width: 343,
                               iconImage: const AssetImage(AppAssets.trling),
                             ),
+                            Center(
+                              child: Padding(
+                                padding:
+                                    const EdgeInsets.only(bottom: 0, top: 12),
+                                child: Container(
+                                  height: 5,
+                                  width: 134,
+                                  decoration: BoxDecoration(
+                                      color: AppColor.black,
+                                      borderRadius: BorderRadius.circular(20)),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 5,
+                            )
                           ],
                         ),
                       ],

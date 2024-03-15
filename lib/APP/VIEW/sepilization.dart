@@ -40,14 +40,15 @@ class Specilization extends StatelessWidget {
               const CustomText(
                 title: 'Select Specilization',
                 color: Colors.black,
-                size: 16,
-                fontWeight: FontWeight.w900,
+                size: 30,
+                fontWeight: FontWeight.w800,
               ),
               const SizedBox(
                 height: 4,
               ),
               const CustomText(
                 title: 'Select before booking appointment',
+                size: 16,
                 color: AppColor.lightgray,
               ),
               SizedBox(
@@ -73,7 +74,7 @@ class Specilization extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 50,
+                height: 10,
               ),
               PrimaryBTN(
                 callback: () {
@@ -84,15 +85,11 @@ class Specilization extends StatelessWidget {
                 color: AppColor.green,
                 title: 'Search Doctors',
                 width: 343,
-                iconImage: const AssetImage(AppAssets.arrow),
-              ),
-              // const Spacer(),
-              const SizedBox(
-                height: 35,
+                iconImage: const AssetImage(AppAssets.searchh),
               ),
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.only(bottom: 0, top: 12),
                   child: Container(
                     height: 5,
                     width: 134,

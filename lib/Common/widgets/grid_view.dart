@@ -14,11 +14,11 @@ const List<Choice> choices = <Choice>[
   Choice(title: 'Cardiologist', icon: AppAssets.heart),
   Choice(title: 'Psychiatrist', icon: AppAssets.psychiatrist),
   Choice(title: 'Pharmacist', icon: AppAssets.rightscan),
-  Choice(title: 'Physiologist', icon: AppAssets.clinician),
+  Choice(title: 'Physiologist', icon: AppAssets.physo),
   Choice(title: 'Physician', icon: AppAssets.clinician),
   Choice(title: 'Clinician', icon: AppAssets.clinician),
   Choice(title: 'Virologist', icon: AppAssets.virologist),
-  Choice(title: 'Consultation', icon: AppAssets.clinician),
+  Choice(title: 'Consultation', icon: AppAssets.consu),
   Choice(title: 'Teeth', icon: AppAssets.teeth),
   Choice(title: 'Nutritionist', icon: AppAssets.nutritionist),
 ];

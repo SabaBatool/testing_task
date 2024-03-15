@@ -4,8 +4,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:testing_task/APP/VIEW/filter_doctor%20_search_view.dart';
-import 'package:testing_task/APP/VIEW/searchdoctor.dart';
 import 'package:testing_task/Constant/custom_assets.dart';
 import 'package:testing_task/Routes/app_routes.dart';
 import 'package:testing_task/Theme/colors.dart';

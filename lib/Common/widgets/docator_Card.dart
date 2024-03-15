@@ -93,13 +93,13 @@ class DoctorCard extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Padding(
+                          Padding(
                             padding: EdgeInsets.only(top: 30),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 CustomText(
-                                  title: 'Dr. Phos Gray',
+                                  title: name,
                                   color: Colors.black,
                                   size: 16,
                                   fontWeight: FontWeight.w900,
@@ -121,6 +121,15 @@ class DoctorCard extends StatelessWidget {
                           ),
                           Row(
                             children: [
+                              const SizedBox(
+                                width: 5,
+                              ),
+                              const Image(
+                                height: 16,
+                                width: 16,
+                                // ignore: unnecessary_const
+                                image: const AssetImage(AppAssets.consu),
+                              ),
                               const SizedBox(
                                 width: 5,
                               ),

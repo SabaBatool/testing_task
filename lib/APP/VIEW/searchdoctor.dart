@@ -184,7 +184,7 @@ class SearchDoctor extends StatelessWidget {
                 height: 30,
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(right: 5, left: 5),
                 child: const DoctorCard(
                     name: 'Dr. Hannibal Lector',
                     specialty: 'Psychiatrist',
@@ -194,6 +194,24 @@ class SearchDoctor extends StatelessWidget {
                     messageIcon: Icons.message,
                     imagePath: AppAssets.searchdr),
               ),
+              SizedBox(
+                height: 130,
+              ),
+              Center(
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 0, top: 12),
+                  child: Container(
+                    height: 5,
+                    width: 134,
+                    decoration: BoxDecoration(
+                        color: AppColor.black,
+                        borderRadius: BorderRadius.circular(20)),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 5,
+              )
             ],
           ),
         ),
